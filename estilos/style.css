@@ -1,0 +1,78 @@
+@charset "UTF_8";
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body,html {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.486);
+}
+
+section#login > div#foto {
+    display: block;
+    background-color: blueviolet;
+    background-image: url(../imagens/pexels-sean-whang-804269.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+    background-position: left top;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+section#login > div#formulario > h1 {
+    padding: 4px;
+}
+
+section#login > div#formulario > p {
+    
+}
+
+form > p > span {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+form > p > input#iemail,input#ikey {
+    padding: 4px;
+}
+
+form > p > input#entrar {
+    display: block;
+    margin: auto;
+    padding: 10px 50px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
