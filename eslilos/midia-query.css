@@ -13,6 +13,7 @@
         float: left;
         width: 30%;
         height: 100%;
+        border-radius: 20px 0px 0px 20px;
     }
 
     section#login > div#formulario {
@@ -32,14 +33,22 @@
     }
     
     section#login > div#foto {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        border-radius: 20px 0px 0px 20px;
+        border-radius: 0px 20px 20px 0px;
     }
 
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    section#login > div#formulario > h1 {
+        font-size: 2.3em;
+    }
+
+    selection#login > div#formulario > p {
+        font-size: 2em;
     }
 }
