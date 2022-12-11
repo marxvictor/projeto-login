@@ -22,7 +22,7 @@
     }
 
     form > p > span,input {
-        display: block;
+        display: inline;
         margin: auto;
     }
 }

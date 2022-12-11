@@ -67,7 +67,10 @@ form > p > span {
 }
 
 form > p > input#iemail,input#ikey {
+    margin: auto;
     padding: 4px;
+    border-radius: 20px;
+    width: calc(100% - 50px);
 }
 
 form > p > input#entrar {
